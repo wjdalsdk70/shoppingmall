@@ -9,3 +9,5 @@ class FcuserAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Fcuser, FcuserAdmin)
+admin.site.site_header = '패스트캠퍼스'
+admin.site.site_title = '패스트캠퍼스'
